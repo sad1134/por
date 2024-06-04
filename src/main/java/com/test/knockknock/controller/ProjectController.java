@@ -37,10 +37,10 @@ public class ProjectController {
 	
 	@RequestMapping(value = "/knockknock_logincheck" , method = RequestMethod.POST )		
 	public String knockknock_logincheck(HttpServletRequest requst) {
-		
-		Log.info("get parameter" + requst.getParameter("id"));
-		Log.info("get parameter" + requst.getParameter("password"));
-		
+		/*
+		 * Log.info("get parameter" + requst.getParameter("id"));
+		 * Log.info("get parameter" + requst.getParameter("password"));
+		 */
 		
 		
 		return "knockknock/mainpage";
