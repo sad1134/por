@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+<style >
+	.log{
+		
+	}
+		.inline{
+			display: inline;
+		}
+	#header{
+	    text-align: center;
+	}
+	.right{
+
+		position: absolute;
+    	right: 20px;
+	}
+	#main_imgbox{
+		height: 400px;
+		overflow: hidden;
+	}
+	
+	.main_img{
+		width: 100%;
+		
+		
+	}
+	.main_img_txt{
+	    position: absolute;
+	    top: 350px;
+	    left: 40px;
+	    font-size: 35px;
+    }
+        #category{
+    	text-align: center;
+        }
+    
+    #category div{
+    	display: inline;
+    	margin: 0px 30px;
+    	margin-top: 5px;
+    }
+    .category{
+	
+	margin-top:30px;
+    
+    }
+	</style>
